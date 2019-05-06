@@ -30,14 +30,25 @@ export class Analyser {
   private nodeModules: NodeModules
   private componentConfig: IComponentStructure = {}
 
+  /**
+   * Constructor
+   * @param targetProjectRoot path to root of the project containing wix-ui-tpa node module
+   */
   constructor(targetProjectRoot: string) {
     this.nodeModules = new NodeModules(targetProjectRoot)
   }
 
+  /**
+   * Exports components and their variables into JSON file
+   * @param outputFile address of target JSON file
+   */
   public exportComponentConfig(outputFile: string) {
     fs.writeFileSync(outputFile, getBeautifulJson(this.getComponentConfig(), null, 2, 80), {encoding: 'utf8'})
   }
 
+  /**
+   * Retrieves configuration of components and their variables
+   */
   public getComponentConfig() {
     this.scanComponentNames()
     this.scanComponentVariables()
