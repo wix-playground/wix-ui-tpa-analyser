@@ -19,7 +19,7 @@ const COMPONENT_SCAN_PATHS: {[listingPath: string]: string} = {
 
 const COMPONENT_NAME_DIR_REGEXP = /^[A-Z][a-zA-Z0-9]*$/
 const STYLABLE_FILE_NAME_REGEXP = /\.st\.css$/
-const VARIABLES_FRAGMENT_REGEXP = /-st-mixin(.|[\n\r])*/m
+const VARIABLES_FRAGMENT_REGEXP = /-st-mixin([^;]|[\n\r])*;/m
 const VARIABLE_NAMES_REGEXP = /^\s+[A-Za-z][A-Za-z0-9_-]*/gm
 const VARIABLE_NAME_REGEXP = /[A-Za-z][A-Za-z0-9_-]*/
 
