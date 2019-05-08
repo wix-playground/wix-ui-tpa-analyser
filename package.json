@@ -29,7 +29,6 @@
   ],
   "author": "Vytenis Urbonavicius",
   "license": "MIT",
-  "homepage": "https://github.com/wix-playground/wix-ui-tpa-analyser",
   "dependencies": {
     "args": "~5.0.1",
     "find-node-modules": "^2.0.0",

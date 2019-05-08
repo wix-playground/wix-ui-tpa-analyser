@@ -13,7 +13,6 @@ const expectedComponentStructure: IComponentStructure = {
     'MainBorderWidth',
     'MainBorderRadius',
     'MainBorderColor',
-    'margin-left',
   ],
   Card: ['MainInfoColor', 'MainMediaColor', 'MainBorderColor', 'MainBorderWidth'],
   Divider: ['MainDividerColor', 'MainDividerWidth'],
