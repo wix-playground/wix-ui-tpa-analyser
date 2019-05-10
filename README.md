@@ -84,3 +84,9 @@ analyser.exportComponentConfig('someFile.json')
 ## Documentation
 
 More detailed documentation is available under _./dist/docs_.
+
+## Next Steps for Contributors
+
+Currently this library optimistically uses regular expressions and conventions to extract information about components and their Stylable variables.
+
+Better approach would be to use "css-tree" to convert Stylable files into AST. Then, code would need to follow imports and collect information about all existent variables. "wix-ui-tpa-connected-generator" module could then try injecting values into all variables and in this way would verify which variables are actually impacting CSS output.
