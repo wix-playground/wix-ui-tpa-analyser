@@ -15,7 +15,7 @@
     "buildDev": "./node_modules/.bin/webpack --config webpack.config.dev.js",
     "docs": "./node_modules/.bin/typedoc --module commonjs --target ES6 --exclude \"**/*.test.*\" --ignoreCompilerErrors --out ./dist/docs --readme ./README.md --mode file ./index.ts ./lib",
     "clean-install": "rm -rf ./node_modules || true && rm ./package-lock.json || true && npm install",
-    "clean": "rm -rf ./dist || true && rm -rf ./cache || true",
+    "clean": "rm -rf ./dist || true && rm -rf ./cache || true && rm ./index.d.ts || true",
     "exec": "node ./cli.js"
   },
   "repository": {
