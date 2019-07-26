@@ -51,5 +51,6 @@
     "webpack-cli": "^3.3.0",
     "webpack-node-externals": "^1.7.2",
     "wix-ui-tpa": "1.0.131"
-  }
+  },
+  "publishConfig": {}
 }
