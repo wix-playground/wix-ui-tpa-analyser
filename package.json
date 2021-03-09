@@ -1,5 +1,5 @@
 {
-  "name": "wix-ui-tpa-analyser",
+  "name": "@wix/wix-ui-tpa-analyser",
   "version": "1.0.0",
   "description": "CLI tool to extract WIX UI TPA components and supported variables",
   "main": "dist/index.js",
